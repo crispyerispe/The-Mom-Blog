@@ -1,6 +1,5 @@
 const express = require("express");
 const connectDB = require("./config/db");
-const posts = require("./routes/posts");
 
 const app = express();
 
@@ -13,7 +12,6 @@ app.use(express.json({ extended: false }));
 // Define Routes
 app.use("/api/users", require("./routes/users"));
 app.use("/api/auth", require("./routes/auth"));
-app.use("/api/posts", require("./routes/posts"));
 
 app.use(express.static(path.join(__dirname, "client/build")));
 app.get('/', (req, res) => {
