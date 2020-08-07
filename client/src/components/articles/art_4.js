@@ -25,9 +25,9 @@ const art_4 = () => {
                       <div className="post">
                         <div className="post-header">
                           <div className="labelhome">
-                            <a href="#" rel="tag">
+                            <Link to="#" className="la" rel="tag">
                               Mom Life
-                            </a>
+                            </Link>
                           </div>
                           <h1 className="entry-title" itemprop="name">
                             Working From Home During Covid-19
@@ -35,9 +35,9 @@ const art_4 = () => {
                           <div className="post-info">
                             <span className="time-info">
                               <l></l>
-                              <a
+                              <Link
                                 className="timestamp-link"
-                                href="#"
+                                to="#"
                                 rel="bookmark"
                                 title="permanent link"
                               >
@@ -47,7 +47,7 @@ const art_4 = () => {
                                 >
                                   July 23, 2020
                                 </abbr>
-                              </a>
+                              </Link>
                             </span>
                           </div>
                         </div>
@@ -61,8 +61,8 @@ const art_4 = () => {
                               className="separator"
                               style={{ clear: "both", textAlign: "center" }}
                             >
-                              <a
-                                href="#"
+                              <Link
+                                to="#"
                                 imageanchor="1"
                                 style={{
                                   marginLeft: "1em",
@@ -76,7 +76,7 @@ const art_4 = () => {
                                   src={ML}
                                   alt="..."
                                 />
-                              </a>
+                              </Link>
                             </div>
                             <br />
                             <div className="article-information">
@@ -258,10 +258,7 @@ const art_4 = () => {
                   </div>
                   <div className="clear"></div>
                 </div>
-                <div
-                  className="widget recent-posts"
-                  data-version="1"
-                >
+                <div className="widget recent-posts" data-version="1">
                   <h2>RECENT POSTS</h2>
                   <div className="widget-content recent-bar">
                     <ul>
@@ -335,10 +332,7 @@ const art_4 = () => {
                     </div>
                   </div>
                 </div>
-                <div
-                  className="widget"
-                  data-version="2"
-                >
+                <div className="widget" data-version="2">
                   <h2 className="title">Subscirbe To My Blog</h2>
                   <div className="widget-content">
                     <span>

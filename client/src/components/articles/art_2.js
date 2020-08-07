@@ -25,9 +25,9 @@ const art_2 = () => {
                       <div className="post">
                         <div className="post-header">
                           <div className="labelhome">
-                            <a href="#" rel="tag">
+                            <Link to="#" className="la" rel="tag">
                               Personal
-                            </a>
+                            </Link>
                           </div>
                           <h1 className="entry-title" itemprop="name">
                             My Pregnancy And Birth Story
@@ -35,9 +35,9 @@ const art_2 = () => {
                           <div className="post-info">
                             <span className="time-info">
                               <l></l>
-                              <a
+                              <Link
                                 className="timestamp-link"
-                                href="#"
+                                to="#"
                                 rel="bookmark"
                                 title="permanent link"
                               >
@@ -47,7 +47,7 @@ const art_2 = () => {
                                 >
                                   July 20, 2020
                                 </abbr>
-                              </a>
+                              </Link>
                             </span>
                           </div>
                         </div>
@@ -61,8 +61,8 @@ const art_2 = () => {
                               className="separator"
                               style={{ clear: "both", textAlign: "center" }}
                             >
-                              <a
-                                href="#"
+                              <Link
+                                to="#"
                                 imageanchor="1"
                                 style={{
                                   marginLeft: "1em",
@@ -76,7 +76,7 @@ const art_2 = () => {
                                   src={A4}
                                   alt="..."
                                 />
-                              </a>
+                              </Link>
                             </div>
                             <br />
                             <div className="article-information">

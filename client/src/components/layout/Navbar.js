@@ -10,7 +10,7 @@ const Navbar = () => {
           <div className="header websitelogo section" id="Website Logo">
             <div className="widget Header" data-version="1" id="Header1">
               <div id="head-inner">
-                <a href="#menuNav" style={{ display: "block" }}>
+                <a to href="#menuNav" style={{ display: "block" }}>
                   <img
                     alt="MB Logo"
                     height="120px; "
@@ -18,7 +18,6 @@ const Navbar = () => {
                     src={Logo}
                     style={{ display: "block" }}
                     width="250px; "
-
                   />
                 </a>
               </div>
@@ -27,7 +26,7 @@ const Navbar = () => {
           <div className="header mobilelogo section" id="Mobile Logo">
             <div className="widget Header" data-version="1" id="Header2">
               <div id="head-inner">
-                <a href="#menuNav" style={{ display: "block" }}>
+                <a to href="#menuNav" style={{ display: "block" }}>
                   <img
                     alt="MB Logo"
                     height="120px; "
@@ -35,7 +34,6 @@ const Navbar = () => {
                     src={Logo}
                     style={{ display: "block" }}
                     width="250px; "
-                    alt="..."
                   />
                 </a>
               </div>
@@ -73,40 +71,40 @@ const Navbar = () => {
               <div className="widget" data-version="1" id="HTML535">
                 <ul className="social text-center">
                   <li className="updown-wrap">
-                    <a
+                    <Link
+                      to="#"
                       className="updown-inner collections-icon-twitter "
-                      href="#"
                       target="_blank"
                     >
                       <i className="fab fa-twitter"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li className="updown-wrap">
-                    <a
+                    <Link
+                      to="#"
                       className="updown-inner collections-icon-facebook "
-                      href="#"
                       target="_blank"
                     >
                       <i className="fab fa-facebook-f"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li className="updown-wrap">
-                    <a
+                    <Link
+                      to="#"
                       className="updown-inner collections-icon-pinterest "
-                      href="#"
                       target="_blank"
                     >
                       <i className="fab fa-pinterest"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li className="updown-wrap">
-                    <a
+                    <Link
+                      to="#"
                       className="updown-inner collections-icon-instagram "
-                      href="#"
                       target="_blank"
                     >
                       <i className="fab fa-instagram"></i>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>

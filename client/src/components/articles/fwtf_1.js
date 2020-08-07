@@ -25,9 +25,9 @@ const fwtf_1 = () => {
                       <div className="post">
                         <div className="post-header">
                           <div className="labelhome">
-                            <a className="la" href="#" rel="tag">
+                            <Link className="la" to="#" rel="tag">
                               Kiddies
-                            </a>
+                            </Link>
                           </div>
                           <h1 className="entry-title" itemprop="name">
                             Fun With The Fam | Outings
@@ -35,9 +35,9 @@ const fwtf_1 = () => {
                           <div className="post-info">
                             <span className="time-info">
                               <l></l>
-                              <a
+                              <Link
                                 className="timestamp-link"
-                                href="#"
+                                to="#"
                                 rel="bookmark"
                                 title="permanent link"
                               >
@@ -47,7 +47,7 @@ const fwtf_1 = () => {
                                 >
                                   July 19, 2020
                                 </abbr>
-                              </a>
+                              </Link>
                             </span>
                           </div>
                         </div>
@@ -61,8 +61,8 @@ const fwtf_1 = () => {
                               className="separator"
                               style={{ clear: "both", textAlign: "center" }}
                             >
-                              <a
-                                href="#"
+                              <Link
+                                to="#"
                                 imageanchor="1"
                                 style={{
                                   marginLeft: "1em",
@@ -76,7 +76,7 @@ const fwtf_1 = () => {
                                   src={f1}
                                   alt="..."
                                 />
-                              </a>
+                              </Link>
                             </div>
                             <br />
                             <div className="article-information">
@@ -104,7 +104,7 @@ const fwtf_1 = () => {
                                 </strong>
                               </h2>
                               <br />
-                              <a href="https://www.oudemolenecovillage.co.za/the-playshed"></a>
+                              https://www.oudemolenecovillage.co.za/the-playshed
                               <br />
                               <p>
                                 The Play Shed is an indoor & outdoor play &
@@ -316,10 +316,7 @@ const fwtf_1 = () => {
                   </div>
                   <div className="clear"></div>
                 </div>
-                <div
-                  className="widget recent-posts"
-                  data-version="1"
-                >
+                <div className="widget recent-posts" data-version="1">
                   <h2>RECENT POSTS</h2>
                   <div className="widget-content recent-bar">
                     <ul>
@@ -378,7 +375,7 @@ const fwtf_1 = () => {
                     <div className="clear"></div>
                   </div>
                 </div>
-                <div className="widget" data-version="2" >
+                <div className="widget" data-version="2">
                   <div className="widget-content">
                     <div className="side-boxes">
                       <Link to="/gallery">
@@ -395,10 +392,7 @@ const fwtf_1 = () => {
                     </div>
                   </div>
                 </div>
-                <div
-                  className="widget"
-                  data-version="2"
-                >
+                <div className="widget" data-version="2">
                   <h2 className="title">Subscribe To My Blog</h2>
                   <div className="widget-content">
                     <span>
