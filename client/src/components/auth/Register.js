@@ -49,64 +49,82 @@ const Register = (props) => {
   };
 
   return (
-    <div className="form-container">
-      <h1>
-        Account <span className="text-primary">Sign Up</span>
-        <img src={Logo} alt="..." />
-      </h1>
-      <form onSubmit={onSubmit}>
-        <div className="form-group">
-          <label htmlFor="name">Name</label>
-          <input
-            id="name"
-            type="text"
-            name="name"
-            value={name}
-            onChange={onChange}
-            required
-          />
+    <div className="container">
+      <div className="contact-section">
+        <h2 className="ct-section-head">SIGN UP</h2>
+        <div className="row contact-fields">
+          <div className="col-md-8 left-form">
+            <img src={Logo} alt="..." />
+            <form onSubmit={onSubmit}>
+              <div className="form-group">
+                <label className="sr-only" htmlFor="name">
+                  Name *
+                </label>
+                <input
+                  className="required form-control"
+                  id="name"
+                  name="name"
+                  placeholder="Name*"
+                  type="text"
+                  value={name}
+                  onChange={onChange}
+                  required
+                />
+              </div>
+              <div className="form-group">
+                <label className="sr-only" htmlFor="email">
+                  Email *
+                </label>
+                <input
+                  className="required form-control h5-email"
+                  id="email"
+                  placeholder="Email*"
+                  type="email"
+                  name="email"
+                  value={email}
+                  onChange={onChange}
+                  required
+                />
+              </div>
+              <div className="form-group">
+                <label className="sr-only" htmlFor="password">
+                  Password *
+                </label>
+                <input
+                  className="required form-control h5-phone"
+                  id="password"
+                  type="password"
+                  name="password"
+                  placeholder="Password*"
+                  value={password}
+                  onChange={onChange}
+                  required
+                  minLength="6"
+                />
+              </div>
+              <div className="form-group">
+                <label className="sr-only" htmlFor="password2">
+                  Confirm Password *
+                </label>
+                <input
+                  className="required form-control"
+                  id="password2"
+                  type="password"
+                  name="password2"
+                  placeholder="Confirm Password*"
+                  value={password2}
+                  onChange={onChange}
+                  required
+                  minLength="6"
+                />
+              </div>
+              <button className="btn btn-accent" value="Register" type="submit">
+                Submit
+              </button>
+            </form>
+          </div>
         </div>
-        <div className="form-group">
-          <label htmlFor="email">Email Address</label>
-          <input
-            id="email"
-            type="email"
-            name="email"
-            value={email}
-            onChange={onChange}
-            required
-          />
-        </div>
-        <div className="form-group">
-          <label htmlFor="password">Password</label>
-          <input
-            id="password"
-            type="password"
-            name="password"
-            value={password}
-            onChange={onChange}
-            required
-            minLength="6"
-          />
-        </div>
-        <div className="form-group">
-          <label htmlFor="password2">Confirm Password</label>
-          <input
-            id="password2"
-            type="password"
-            name="password2"
-            value={password2}
-            onChange={onChange}
-            required
-            minLength="6"
-          />
-        </div>
-        <input
-          type="submit"
-          value="Register"
-          className="btn btn-primary btn-block"
-        />
-      </form>
+      </div>
     </div>
   );
 };

@@ -361,7 +361,7 @@ const fwtf_2 = () => {
                   <div className="widget-content">
                     <span>
                       <button className="btn btn-block">
-                        <Link to="/register">SIGN UP</Link>
+                      <Link to="/register">SIGN UP</Link>
                       </button>
                     </span>
                   </div>

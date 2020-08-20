@@ -6,11 +6,11 @@ const Navbar = () => {
   return (
     <Fragment>
       <div className="headertop-wrap">
-        <nav className="fixed-nav" id="menuNav">
+        <nav className="fixed-top" id="menuNav">
           <div className="header websitelogo section" id="Website Logo">
             <div className="widget Header" data-version="1" id="Header1">
               <div id="head-inner">
-                <a to href="#menuNav" style={{ display: "block" }}>
+                <a href="#menuNav" style={{ display: "block" }}>
                   <img
                     alt="MB Logo"
                     height="120px; "
@@ -26,16 +26,14 @@ const Navbar = () => {
           <div className="header mobilelogo section" id="Mobile Logo">
             <div className="widget Header" data-version="1" id="Header2">
               <div id="head-inner">
-                <a to href="#menuNav" style={{ display: "block" }}>
-                  <img
-                    alt="MB Logo"
-                    height="120px; "
-                    id="Header2_headerimg"
-                    src={Logo}
-                    style={{ display: "block" }}
-                    width="250px; "
-                  />
-                </a>
+                <img
+                  alt="MB Logo"
+                  height="120px; "
+                  id="Header2_headerimg"
+                  src={Logo}
+                  style={{ display: "block" }}
+                  width="250px; "
+                />
               </div>
             </div>
           </div>
@@ -114,7 +112,7 @@ const Navbar = () => {
         </nav>
       </div>
       <div className="headertop-wrap-mobile">
-        <nav id="menuNav">
+        <nav className="fixed-top" id="menuNav">
           <div className="topBar">
             <div className="rapper">
               <div className="topLeft">
