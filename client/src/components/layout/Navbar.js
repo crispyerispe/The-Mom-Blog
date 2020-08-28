@@ -39,8 +39,8 @@ const Navbar = () => {
           </div>
           <div className="topBar">
             <div className="rapper">
-              <div className="topLeft section" id="Menubar">
-                <div className="widget" data-version="1" id="HTML665">
+              <div className="topLeft section" id="menuBar">
+                <div className="widget" data-version="1">
                   <nav className="nav-collapse" id="navTop">
                     <ul className="topmenu1" id="masthead">
                       <li>
@@ -66,7 +66,7 @@ const Navbar = () => {
           </div>
           <div className="socialtop">
             <div className="social-container section" id="Social-Icons">
-              <div className="widget" data-version="1" id="HTML535">
+              <div className="widget" data-version="1">
                 <ul className="social text-center">
                   <li className="updown-wrap">
                     <Link

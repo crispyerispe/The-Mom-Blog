@@ -3021,6 +3021,10 @@ a:link {
   background-size: cover;
 }
 
+.carousel {
+  padding-top: 85px;
+}
+
 /* Slider */
 
 /* Forms */
@@ -3291,3 +3295,7 @@ a {
   text-align: center;
 }
 
+.welcome-sec {
+  padding-left: 5px;
+  padding-right: 10px;
+}
